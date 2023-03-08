@@ -1,0 +1,77 @@
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+     }
+     .nav-logo-logo .img img{
+        margin-left: 50%;
+     }
+    .nav__logo a{
+    display: none;
+    }
+    
+.page__content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.donals__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+    text-align: center;
+}
+.donals__item p{
+    width: 100%;
+    color: black;
+}
+
+.testimonnial .title h2{
+    color: black;
+}
+
+.form{
+    width: 100%;
+}
+.form input{
+    width: 90%;
+    height: 70px;
+}
+.form textarea{ 
+    width: 90%;
+    height: 70px;
+}
+}
+
+
+
+
+/* res 368px */
+@media only screen and (max-width:368px) {
+    
+.page__item h2{
+    font-size: 1.9rem;
+    width: 100%;
+}
+.page__item p{
+    width: 100%;
+}
+
+.title h3{
+    font-size: 2rem;
+}
+.title h2{
+    font-size: 2rem;
+}
+
+.form{
+    width: 100%;
+}
+.form input{
+    width: 100%;
+    height: 80px;
+}
+.form textarea{ 
+    width: 100%;
+    height: 80px;
+}
+}
